@@ -1,0 +1,28 @@
+.example-container {
+    height: calc(200vh - 98px);
+}
+
+
+
+mat-drawer-content {
+
+    height: calc(100vh - 98px);
+    border-radius: 10px;
+    margin: 16px;
+    margin-left: 32px;
+
+
+    padding-left: 20px;
+    font-size: 2rem;
+
+}
+
+mat-drawer {
+    height: calc(200vh - 65px);
+    width: 300px;
+    border-right: none;
+    background: #002b5c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
