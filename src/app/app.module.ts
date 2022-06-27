@@ -7,6 +7,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PruebaComponentComponent } from './prueba-component/prueba-component.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     BrowserModule,
     AppRoutingModule,
     MatSidenavModule,
+    MatIconModule,
     BrowserAnimationsModule
   ],
   providers: [],

@@ -1,7 +1,12 @@
 <mat-drawer-container class="example-container">
-    <mat-drawer mode="side" opened>Drawer content</mat-drawer>
+    <mat-drawer mode="side" #drawer opened>
+        <div>Logo</div>
+        <mat-icon class="close" (click)="drawer.close()">close</mat-icon>
+    </mat-drawer>
     <mat-drawer-content>
-
+        <mat-icon *ngIf="!drawer.opened" (click)="drawer.toggle()">
+            menu
+        </mat-icon>
         <router-outlet></router-outlet>
 
     </mat-drawer-content>
